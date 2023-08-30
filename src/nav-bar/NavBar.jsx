@@ -22,7 +22,7 @@ export default function NavBar() {
         <div className="topRight">
           <img
             className="topImg"
-            src="https://thebiem.com/wp-content/uploads/2019/01/Ibuki-Ueoka-min.png"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKuPBb2U4Fvm1QxIGTstjguI0rRXYJx5dTRA&usqp=CAU"
             alt="profile-pic"
           />
           <i className="topSearchIcon fa-solid fa-magnifying-glass"></i>
