@@ -1,3 +1,6 @@
 .posts{
     flex: 9;
+    display: flex;
+    flex-wrap: wrap; /* move to next row if width remaining is less than the post dimensions */
+    margin: 20px;
 }

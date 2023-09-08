@@ -1,25 +1,34 @@
 .nav{
     align-items: center;
     background-color: white;
+
+    /* to add other components in nav bar side-by-side */
     display: flex;
+
     font-family: 'Josefin Sans', sans-serif;
     height: 50px;
+
+    /* to stick (at top) when page gets scroll down */
     position: sticky;
     top: 0;
+
     width: 100%;
+
+    z-index: 999;  /* to avoid overlapping of heading with navbar */
 }
 
 .topLeft, .topRight{
-    flex: 3;
+    flex: 3; /* total of 12 so 3 + 3 = 6 */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .topCenter{
-    flex: 6;
+    flex: 6; /* remaining 6 */
 }
 
+/* profile image */
 .topImg{
     height: 40px;
     width: 40px;
@@ -31,15 +40,16 @@
     font-size: 20px;
     margin-right: 10px;
     color: #444;
-    cursor: pointer;
+    cursor: pointer; /* when we hover over then the cursor becomes pointer */
 }
 
 .topList{
-    display: flex;
+    display: flex; /* This makes content appear side by side */
+    /* flex-direction: column; This make all of the content arranged one below another */
     justify-content: center;
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style: none; /* this removes the bullet icons from the list items */
 }
 
 .topListItem{
