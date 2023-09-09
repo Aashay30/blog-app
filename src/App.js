@@ -1,5 +1,6 @@
 import NavBar from "./components/nav-bar/NavBar";
-import Login from "./pages-of-blog/loginPage/Login";
+import Register from "./pages-of-blog/registerPage/Register";
+// import Login from "./pages-of-blog/loginPage/Login";
 // import Settings from "./pages-of-blog/settingsPage/Settings";
 // import Single from "./pages-of-blog/singlePage/Single";
 // import WritePage from "./pages-of-blog/writePage/WritePage";
@@ -9,7 +10,7 @@ import Login from "./pages-of-blog/loginPage/Login";
 function App() {
   return <div className="App">
     <NavBar />
-    <Login />
+    <Register />
   </div>;
 }
 
